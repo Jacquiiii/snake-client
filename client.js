@@ -5,12 +5,8 @@ const connect = function () {
     port: 50541
   });
 
-  conn.on("event name", () => {
-    // code that does something
-  });
-
   conn.on("connect", (data) => {
-    console.log('you ded cuz you idled');
+    console.log("you ded cuz you idled");
   });
 
   // interpret incoming data as text
