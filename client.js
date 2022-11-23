@@ -14,15 +14,14 @@ const connect = function () {
   // conn.on("connect", (data) => {
   //   console.log("you ded cuz you idled");
   // });
-
-  // interpret incoming data as text
+  
   conn.setEncoding("utf8");
 
   return conn;
 };
 
 module.exports = {
-  connect
+  connect,
 };
 
 
