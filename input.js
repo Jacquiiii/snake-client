@@ -1,6 +1,5 @@
 let connection;
 
-
 const setupInput = (conn) => {
 
   connection = conn;
@@ -13,8 +12,7 @@ const setupInput = (conn) => {
 
 };
 
-
-const handleUserInput = function (key) {
+const handleUserInput = function(key) {
 
   if (key === '\u0003') {
     process.exit();
@@ -39,7 +37,6 @@ const handleUserInput = function (key) {
   }
 
 };
-
 
 module.exports = {
   setupInput,
